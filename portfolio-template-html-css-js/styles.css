@@ -46,7 +46,7 @@ header {
 
 	.logo-holder {
 		display:flex;
-		padding:10px;
+		padding:20px;
 		align-items:center;
 		font-weight:600;
 		color: var(--base-800);
@@ -56,12 +56,33 @@ header {
 			align-items:center;
 			justify-content:center;
 			font-size:32px;
-			background-color: var(--base-800);
+			background: #5E5DF0;
+			/* background-color: var(--base-800); */
 			color: var(--base-100);
-			height:64px;
-			width:64px;
+			height:40px;
+			width:40px;
 			margin-right:20px;
-			border-radius:50%;
+			/* border-radius:50%; */
+			border-radius:999px;
+			box-shadow: #5E5DF0 0 10px 20px -10px;
+			box-sizing: border-box;
+			box-shadow: #5E5DF0 0 10px 20px -10px;
+			box-sizing: border-box;
+			color: #FFFFFF;
+			cursor: pointer;
+			font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+			font-size: 24px;
+			font-weight: 600;
+			line-height: 22px;
+			opacity: 1;
+			outline: 0 solid transparent;
+			padding: 6px 14px;
+			user-select: none;
+			-webkit-user-select: none;
+			touch-action: manipulation;
+			width: fit-content;
+			word-break: break-word;
+			border: 0;
 		}
 		.logo-text {
 			flex:1;
